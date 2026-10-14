@@ -23,6 +23,13 @@
       "!**/.next/cache/**",
       "!dist/**"
     ],
+    "publish": [
+      {
+        "provider": "github",
+        "owner": "leanghonghav168",
+        "repo": "vps-tool-app"
+      }
+    ],
     "win": {
       "target": [
         "nsis",
@@ -31,6 +38,7 @@
     }
   },
   "dependencies": {
+    "electron-updater": "^6.8.9",
     "lucide-react": "^1.57.0",
     "next": "16.4.0",
     "react": "19.3.0",
